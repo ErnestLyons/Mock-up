@@ -24,11 +24,15 @@ body {
     background-color: var(--bg-main)}
 
 
-@media screen and (max-width:768px) {
-    main { background-color: var(--bg-main);
-    margin: 88px 24px; 
-    padding: 40px, 30px,32px, 30px;
-}
+    @media screen and (max-width:350px) {
+        body { background-color: var(--bg-main);
+        margin: 50px; 
+        padding: 40px, 30px,32px, 30px;
+    }
+    .sidenav { 
+        width: 50px;
+    
+    }
 }
 
 @media screen and (min-width:1440px){
@@ -74,7 +78,6 @@ body {
         }
         .sidenav {
           height: 100%;
-          width: 175px; 
           position: fixed; 
           z-index: 1; 
           top: 0; 

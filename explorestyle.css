@@ -28,12 +28,12 @@ body {
 @media screen and (max-width:350px) {
     body { background-color: var(--bg-main);
     margin: 50px; 
-    padding: 25px;
-}
+    padding: 40px, 30px,32px, 30px;}
 .sidenav { 
-    width: 25px;
+    width: 50px;
 
-}}
+}
+}
 
 @media screen and (min-width:1440px){
     body { background-color: var(--bg-main);
@@ -67,11 +67,10 @@ a:hover {
   }
   .sidenav {
     height: 100%;
-    width: 250px; 
     position: fixed; 
     z-index: 1; 
     top: 0; 
     left: 0;
     background-color: var(--bg-main);
     overflow-x: hidden; 
-    padding-top: 20px; }
+    padding-top: 0px; }
