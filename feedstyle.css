@@ -96,4 +96,13 @@ body {
                     border: none;
                     margin-top: 8px;
                     margin-right: 1px;
-                    font-size: 15px;}
+                    font-size: 15px;} 
+
+                    .box {
+                        justify-content: space-around;
+                        align-items: center;
+                        background-color: var(--bg-secondary);
+                            width: 345px;
+                            padding: 25px;
+                            margin: auto;
+                        }

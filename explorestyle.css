@@ -66,11 +66,7 @@ a:hover {
     font-size: 48px;
     line-height: 58px;
   }
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+
   .sidenav {
     height: 100%;
     position: fixed; 
@@ -91,10 +87,11 @@ a:hover {
                 margin-right: 1px;
                 font-size: 15px;}
 .box {
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--bg-secondary);
-
-        width: 300px;
-        padding: 50px;
-        margin: 20px;
+        width: 345px;
+        padding: 25px;
+        margin: auto;
 
 }
