@@ -1,6 +1,8 @@
 *,
 *::before ,
-*::after {
+*::after {   
+     margin: 0;
+    padding: 0;
     box-sizing:border-box;
 }
 
@@ -23,17 +25,20 @@ body {
     background-color: var(--bg-main)}
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:350px) {
     body { background-color: var(--bg-main);
-    margin:480px 444px; 
-    padding: 40px, 30px,32px, 30px;
+    margin: 50px; 
+    padding: 25px;
 }
-}
+.sidenav { 
+    width: 25px;
+
+}}
 
 @media screen and (min-width:1440px){
     body { background-color: var(--bg-main);
-        margin: 480px 444px; 
-        padding: 40px, 30px,32px, 30px;
+        margin: 0px; 
+        padding: 0px
     }
 }
 
