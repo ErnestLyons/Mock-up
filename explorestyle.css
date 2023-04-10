@@ -11,6 +11,7 @@
     --bg-main: #7F917C;
     --text-main: #DCDCD9;
     --accent: #FBEF81;
+    --bg-secondary: #41543E;
     font-size: 15px;
 }
 
@@ -65,15 +66,20 @@ a:hover {
     font-size: 48px;
     line-height: 58px;
   }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   .sidenav {
     height: 100%;
     position: fixed; 
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: var(--bg-main);
+    background-color: var(--bg-secondary);
     overflow-x: hidden; 
-    padding-top: 0px; }
+    padding-top: 100px; }
     .topnav {
         overflow: hidden;
         background-color: var(--bg-main);} 
@@ -84,3 +90,11 @@ a:hover {
                 margin-top: 8px;
                 margin-right: 1px;
                 font-size: 15px;}
+.box {
+    background-color: var(--bg-secondary);
+
+        width: 300px;
+        padding: 50px;
+        margin: 20px;
+
+}
