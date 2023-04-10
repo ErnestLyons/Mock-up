@@ -1,0 +1,72 @@
+*,
+*::before ,
+*::after {
+    box-sizing:border-box;
+}
+
+ 
+:root{
+    --bg-main: #7F917C;
+    --text-main: #DCDCD9;
+    --accent: #FBEF81;
+    font-size: 15px;
+}
+
+*{   
+    font-family: 'Inter, Verdana ,Tahoma,sans-serif, ';
+    color: var(--text-main); 
+    
+    
+}
+body {
+    text-align: center;
+    background-color: var(--bg-main)}
+
+
+@media screen and (max-width:768px) {
+    body { background-color: var(--bg-main);
+    margin:480px 444px; 
+    padding: 40px, 30px,32px, 30px;
+}
+}
+
+@media screen and (min-width:1440px){
+    body { background-color: var(--bg-main);
+        margin: 480px 444px; 
+        padding: 40px, 30px,32px, 30px;
+    }
+}
+
+.accent{
+    color: var(--accent);
+}
+
+.line {
+    height: 3px;
+    background: var(--accent);}
+
+    
+a:hover {
+  background-color: var(--accent);}
+  a:active {
+    background-color: var(--accent);
+  } 
+
+  a:visited {
+    background-color: var(--accent);
+  }
+
+  h1{
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  h3 {
+    font-size: 36px;
+    line-height: 44px;
+  } 
+  .line {
+    height: 1px;
+    background: var(--accent);
+    margin-left: 200px;
+    margin-right: 200px;}
