@@ -19,6 +19,9 @@
     
     
 }
+.grid-container {
+  display: grid;
+}
 body {
     text-align: center;
     background-color: var(--bg-main)}

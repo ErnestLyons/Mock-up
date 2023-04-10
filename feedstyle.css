@@ -21,6 +21,10 @@
     font-weight: 400
     
 }
+.grid-container {
+    display: grid;
+  }
+
 body {
     background-color: var(--bg-main)}
 
